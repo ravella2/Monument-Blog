@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    color: #44545E;
+    color: #4D5C65;
     box-sizing: border-box;
 }
 
@@ -21,6 +21,16 @@ header {
     font-weight: bold;
 }
 
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+nav a {
+    color: #809CAD;
+}
+
 .main-layout {
     display:flex;
     margin: auto 40px;
@@ -28,6 +38,10 @@ header {
 
 main {
     width: 100%;
+}
+
+p {
+    font-size: 13px;
 }
 
 h1 {
@@ -57,7 +71,7 @@ main h3{
 
 
 li a {
-    color: #7D9AAB;
+    color:#829EAF;
     text-decoration: none;
     font-weight: bold;
 
@@ -67,7 +81,9 @@ footer {
     flex: 1;
     background-color: #CDF3F6;
     text-align: center;
-    margin: 50px 0;
-    padding: 1px;
+    padding: 60px;
 }
 
+footer p {
+    align-content:flex-end;
+}
