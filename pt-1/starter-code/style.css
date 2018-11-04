@@ -1,3 +1,5 @@
+/* ------- Entire Site ------- */
+
 * {
     font-family: 'Raleway', sans-serif;
     color: #4D5C65;
@@ -10,6 +12,8 @@ body {
     grid-template-rows: 4fr 6fr 2fr;
     margin: 8px 40px;
 }
+
+/* ------ Header Section ------ */
 
 header {
     grid-column: 1/3;
@@ -32,6 +36,21 @@ nav a {
     color: #809CAD;
 }
 
+h1 {
+    padding: 150px;
+    background-image: url(images/blog_header_bg.jpg);
+    background-position: center;
+    background-size: contain;
+    font-size: 45px;
+    color: white;
+}
+
+header a {
+    text-decoration:  none;
+    font-size: 13px;
+}
+
+/* ------ Blog Body ------ */
 .main-layout {
     display:grid;
 }
@@ -51,23 +70,11 @@ p {
     width: 40em;
 }
 
-h1 {
-    padding: 150px;
-    background-image: url(images/blog_header_bg.jpg);
-    background-position: center;
-    background-size: contain;
-    font-size: 45px;
-    color: white;
-}
-
-header a {
-    text-decoration:  none;
-    font-size: 13px;
-}
-
 main h3{
     margin-bottom: 0;
 }
+
+/* -------Sidebar ------ */
 
 .sidebar {
     grid-column: 2/3;
@@ -77,12 +84,18 @@ main h3{
 li a {
     color:#829EAF;
     text-decoration: none;
+    font-weight: bolder;
 }
 
+/* ------ Comment Box ------ */
+
 aside {
+    grid-column: 1/3;
     display:flex;
     flex-direction: column;
 }
+
+/* ------ Footer ------ */
 
 footer {
     grid-column: 1/3;
