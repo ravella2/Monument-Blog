@@ -37,6 +37,14 @@ nav a {
     text-transform: uppercase;
 }
 
+.hamburger {
+	background-color:whitesmoke;
+    color: black;
+    text-align: center;
+    padding: 2em;
+    display: none;
+}
+
 section h2, h3{
     text-align: center;
     margin: 5em;
@@ -51,8 +59,8 @@ section .past-articles {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #4F5E68;
     text-align: center;
+    color: #4F5E68;
 }
 
 .about-page  {
@@ -76,5 +84,33 @@ footer {
 
 }
 
+@media only screen and (max-width: 650px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .past-articles {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .hamburger {
+        display: inline-block;
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .about-page {
+        height: 50%;
+    }
+
+    
+}
 
