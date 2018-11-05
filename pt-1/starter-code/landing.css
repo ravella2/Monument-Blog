@@ -1,0 +1,80 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../images/home_header_bg.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    letter-spacing: .3em;
+    font-weight: bolder;
+}
+
+header h1 {
+    padding-top: 12em;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A9BCC7;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+section h2, h3{
+    text-align: center;
+    margin: 5em;
+}
+
+h2 {
+    text-align: center;
+    margin: 5em;
+}
+
+section .past-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #4F5E68;
+    text-align: center;
+}
+
+.about-page  {
+    background-color: #CFF2F6;
+}
+
+.about-page h2 {
+    padding-top: 2em;
+}
+
+.about-page p {
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 5em;
+}
+
+footer {
+    background-color: #CDF3F6;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+
+
